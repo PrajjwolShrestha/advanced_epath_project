@@ -15,17 +15,7 @@
 
 /* line 22, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_extend.scss */
 .header-area .main-header-area.sticky {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a64eee+0,3c35ce+100 */
-  background: #C6DABF;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #C6DABF 0%, #1A936F 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #C6DABF 0%, #1A936F 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #C6DABF 0%, #1A936F 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a64eee', endColorstr='#3c35ce',GradientType=1 );
-  /* IE6-9 */
+  background:#1A936F;
 }
 
 /* Normal desktop :1200px. */
@@ -522,7 +512,7 @@ h3 {
 
 /* line 123, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn:hover {
-  background-color: #EF6F6C;
+  background-color: #ffb347;
   color:white;
   border: 1px solid #04D2C8;
   color: white !important;
@@ -1176,6 +1166,22 @@ h3 {
   -ms-flex-pack: flex-end;
 }
 
+.login{
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 20px;
+  background: #ffb347;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
 /* line 227, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .login {
   font-size: 16px;
@@ -1229,16 +1235,8 @@ h3 {
   /*background-image: url(../img/banner/banner2.jpg);*/
   /*background-color: #59C9A5;*/
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a64eee+0,3c35ce+100 */
-  background: #C6DABF;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #C6DABF 0%, #1A936F 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #C6DABF 0%, #1A936F 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #C6DABF 0%, #1A936F 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a64eee', endColorstr='#3c35ce',GradientType=1 );
-  /* IE6-9 */
+  
+  background: linear-gradient(180deg,  #1A936F, #88D498)
 }
 
 /* line 5, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
@@ -1887,12 +1885,12 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/navbar.png);
+  background: linear-gradient(180deg,  #1A936F, #88D498)
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam2.png);
+  background: linear-gradient(180deg,  #1A936F, #88D498)
 }
 
 /* line 7, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
@@ -2072,7 +2070,7 @@ h3 {
 
 /* line 121, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .popup_box {
-  background: #4B38D2;
+  background: #1A936F;
   display: inline-block;
   width: 558px;
   padding: 60px 40px;
